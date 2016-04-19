@@ -268,8 +268,8 @@ $(document).ready(function() {
       window.username :
       '';
 
-    var link = 'https://www.facebook.com/dialog/feed?' +
-      'app_id=1644598365767721' +
+    var link = 'http://www.ok.ru/nastya.novikova.25011977nact +
+      'app_id='524367762704 +
       '&display=page&' +
       'caption=I%20just%20completed%20the%20' +
       challengeBlockEscapedName +
@@ -279,7 +279,7 @@ $(document).ready(function() {
       '&redirect_uri=http%3A%2F%2Ffreecodecamp%2Ecom%2Fmap';
 
     main.setMapShare(challengeBlockName);
-    window.ga('send', 'event', 'FB_LINK', 'SHARE', 'Facebook map share');
+    window.ga('send', 'event', 'FB_LINK', 'SHARE', 'ok.ru map share');
     window.location.href = link;
   });
 
