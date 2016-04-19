@@ -268,8 +268,8 @@ $(document).ready(function() {
       window.username :
       '';
 
-    var link = 'https://www.facebook.com/dialog/feed?' +
-      'app_id=1644598365767721' +
+    var link = 'http://www.ok.ru/nastya.novikova.25011977nact/dialog/feed?' +
+      'app_id=524367762704' +
       '&display=page&' +
       'caption=I%20just%20completed%20the%20' +
       challengeBlockEscapedName +
